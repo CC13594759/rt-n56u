@@ -71,5 +71,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: /opt/images/*.trx
           tag: ${{ github.ref }}
-          overwrite: true
-          file_glob: true
+          overwrite: false
+          file_glob: false
